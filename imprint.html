@@ -16,11 +16,11 @@
       crossorigin="anonymous"
     />
 
-    <link 
-      rel="stylesheet" 
+    <link
+      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    
+
     <style>
       .fa {
         padding: 5px;
@@ -33,8 +33,8 @@
       }
 
       .fa-github {
-          background: #682860;
-          color: white;
+        background: #682860;
+        color: white;
       }
     </style>
 
@@ -43,7 +43,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="/">Navbar</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -58,16 +58,16 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="/index.html">Overview </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/create-todo.html">Create new ToDo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Edit ToDo</a>
+              <a class="nav-link" href="/edit-todo.html">Edit ToDo</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="/imprint.html">Imprint</a>
             </li>
           </ul>
@@ -75,25 +75,33 @@
       </div>
     </nav>
     <div class="container pt-3">
-      <div class="card text-center bg-light mb-3" style="width: 12rem;">
-        <div class="card-header">Contributor</div>
-        <div class="card-body">
-            <p class="card-text">Fynn Roberts</p>
-            <a href="https://github.com/robertsfynn" class="btn btn-social-icon btn-github">
-                <span class="fa fa-github"></span>
-            </a>
-        </div>
-      </div>
-
-      <div class="card text-center bg-light mb-3" style="width: 12rem;">
+      <div class="card-group">
+        <div class="card text-center bg-light mb-3">
           <div class="card-header">Contributor</div>
           <div class="card-body">
-              <p class="card-text">Rudolf Sotnikow</p>
-              <a href="https://github.com/rudolfsot" class="btn btn-social-icon btn-github">
-                  <span class="fa fa-github"></span>
-              </a>
+            <p class="card-text">Fynn Roberts</p>
+            <a
+              href="https://github.com/robertsfynn"
+              class="btn btn-social-icon btn-github"
+            >
+              <span class="fa fa-github"></span>
+            </a>
           </div>
         </div>
+
+        <div class="card text-center bg-light mb-3">
+          <div class="card-header">Contributor</div>
+          <div class="card-body">
+            <p class="card-text">Rudolf Sotnikow</p>
+            <a
+              href="https://github.com/rudolfsot"
+              class="btn btn-social-icon btn-github"
+            >
+              <span class="fa fa-github"></span>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Optional JavaScript -->
